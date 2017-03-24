@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+	
+    <title>
+      Focus Lighting Design About Us
+    </title>
+  </head>
+  <body>
+  
+  
+  
+    <div class="wrapper">
+      <header>		
+        <h1>
+          Focus Lighting Design
+        </h1>
+<h2></h2>
+        <nav>
+          <a href="index.html">Home</a> &nbsp; <a href="about.html">About Us</a> &nbsp; <a href="services.html">Services</a> &nbsp; <a href="portfolio.html">Portfolio</a> &nbsp; <a href="calendar.html">Calendar</a> &nbsp; <a href="contact.html">Contact</a> &nbsp;
+        </nav>
+      </header>
+	  <h4>Services</h4>
+	  
+	  <div id="leftcol" style="margin-left:auto;">
+        <div class="box">
+		<br>
+          <ul>
+            <li>
+              <a href="event.html">Event Design</a>
+            </li>
+            <li>
+              <a href="plots.html">Standard Plots</a>
+            </li>
+            <li>
+              <a href="cons.html">Consultation</a>
+            </li>
+          </ul>
+		  <p>Click a link above to see service details</p>
+        </div>
+      </div>
+	  
+<script> 
+var i = 0; var path = new Array(); 
+
+// LIST OF IMAGES 
+path[0] = "img/slides/plot.jpg"; 
+path[1] = "img/slides/design.jpg"; 
+path[2] = "img/slides/consult.jpg";
+path[3] = "img/slides/beams.jpg"; 
+path[4] = "img/slides/orch.jpg";
+
+function swapImage() 
+{ 
+document.slide.src = path[i]; 
+if(i < path.length - 1) i++; 
+else i = 0; 
+setTimeout("swapImage()",1700); 
+} 
+window.onload=swapImage; 
+</script> 
+<img height="400" name="slide" src="image_1.gif" alt="Slideshow Image" width="800">
+
+    <footer>
+	&copy Focus Lighting Group <br>
+	555 Tesla Avenue <br>
+	Indianapolis, IN, 46202 <br>
+	317-555-3838 <br>
+	</footer>
+	
+	</div>
+	
+	
+	
+  </body>
+</html>
